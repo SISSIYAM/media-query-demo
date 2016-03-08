@@ -1,0 +1,32 @@
+/* laptop*/
+.rapper{
+    max-width: 960px;
+    overflow:hidden;
+    margin:0 auto;
+}
+.nav{
+    float:left;
+    height:300px;
+}
+.article{
+    float:left;
+    height:300px;
+}
+/* table */
+@media only screen and (min-width:481px)and(max-width:768px){
+    .nav{
+        float:right;
+    }
+}
+/* phone */
+@media only screen and (max-width:480px){
+    .nav{
+        float:none;
+        width:100%;
+        height:auto;
+    }
+    .article{
+        float:none;
+        width:100%;
+    }
+}
